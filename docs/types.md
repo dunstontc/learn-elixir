@@ -2,16 +2,15 @@
 
 <!-- TOC -->
 
-- [Types](#types)
-    - [Integers](#integers)
-    - [Floats](#floats)
-    - [Booleans](#booleans)
-    - [Atoms](#atoms)
-    - [Strings](#strings)
-    - [Tuples](#tuples)
-        - [Tuple Functions](#tuple-functions)
-    - [Lists](#lists)
-    - [Maps](#maps)
+- [Integers](#integers)
+- [Floats](#floats)
+- [Booleans](#booleans)
+- [Atoms](#atoms)
+- [Strings](#strings)
+- [Tuples](#tuples)
+  - [Tuple Functions](#tuple-functions)
+- [Lists](#lists)
+- [Maps](#maps)
 
 <!-- /TOC -->
 
@@ -41,7 +40,7 @@ false == :false
 - Strings in Elixir are delimited by double quotes, and they are encoded in UTF-8.
 
 ## Tuples
-- An ordered collection usually with 2 - 4 values.
+- An ordered collection, usually with 2 - 4 values.
 ```elixir
 {:ok, content}
 {:error, reason}

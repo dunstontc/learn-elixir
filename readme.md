@@ -1,4 +1,4 @@
-# Elixir
+# [Elixir](https://github.com/elixir-lang/elixir)
 
 ## Resources
 - [Elixir Getting Started Guide](https://elixir-lang.org/getting-started/basic-types.html)
