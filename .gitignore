@@ -5,6 +5,9 @@
 # Mac files
 .DS_store
 
+# Compiled files
+**/*.beam
+
 # Misc.
 !.gitkeep
 .idea
