@@ -4,8 +4,8 @@
 
 - [Resources](#resources)
   - [Ecosystem](#ecosystem)
-  - [Learning](#learning)
-    - [YouTube](#youtube)
+  - [Medium](#learning)
+  - [YouTube](#youtube)
 
 <!-- /TOC -->
 
@@ -18,9 +18,10 @@ does not compromise speed and maintainability)
 - [devinus/poison](https://github.com/devinus/poison) (An incredibly fast, pure Elixir JSON library)
 - [bitwalker/distillery](https://github.com/bitwalker/distillery) (A pure Elixir implementation of release packaging functionality for the Erlang VM)
 
-### Learning
-- Udemy - Steven Grier
+### Medium
+<!-- - Udemy - Steven Grier -->
 - [The Best Tutorials To Learn Elixir For Beginners](https://medium.com/quick-code/the-best-tutorials-to-learn-elixir-for-beginners-3d805ebfe5d3)
+- [Building a Twitter Emoji Map with Elixir’s GenStage, Phoenix Channels, and Angular 😀🙃😘](https://medium.com/@ospaarmann/building-a-twitter-emoji-map-with-elixirs-genstage-phoenix-channels-and-angular-134319061b8a)
 
 #### YouTube
 - [Elixir and OTP for Node.js Developers](https://www.youtube.com/watch?v=YbTxq4IpLd0)
