@@ -1,0 +1,40 @@
+{
+  "repository": {
+    "operators": {
+      "patterns": [
+        {
+          "name": "keyword.operator.arithmetic.elixir",
+          "match": "([\\+\\-\\*/])"
+        },
+        {
+          "name": "keyword.operator.list.elixir",
+          "match": "(\\-\\-|\\+\\+)"
+        },
+        {
+          "name": "keyword.operator.concatenation.elixir",
+          "match": "\\B(<>)\\B"
+        },
+        {
+          "name": "keyword.operator.comparison.elixir",
+          "match": "\\b(and|or|not)\\b"
+        },
+        {
+          "name": "keyword.operator.boolean.elixir",
+          "match": "\\b(and|or|not)\\b"
+        },
+        {
+          "name": "keyword.operator.boolean.elixir",
+          "match": "\\b((\\|\\|)|(&&)|(\\!))\\b"
+        },
+        // {
+        //   "name": "keyword.operator.andalso.elixir",
+        //   "match": "\\b(and)\\b"
+        // },
+        // {
+        //   "name": "keyword.operator.orelse.elixir",
+        //   "match": "\\b(or)\\b"
+        // },
+      ]
+    }
+  }
+}
