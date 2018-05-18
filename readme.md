@@ -1,4 +1,10 @@
-# [Elixir](https://github.com/elixir-lang/elixir)
+# Elixir
+
+<div align="center">
+  <a href="https://github.com/elixir-lang/elixir">
+    <img src="https://raw.githubusercontent.com/dunstontc/assets/master/images/logos/elixir_logo.png" alt="elixir" title="elixir" width="50%">
+  </a>
+</div>
 
 ## Resources
 - [Elixir Getting Started Guide](https://elixir-lang.org/getting-started/basic-types.html)
