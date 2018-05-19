@@ -1,5 +1,3 @@
-# Elixir
-
 <div align="center">
   <a href="https://github.com/elixir-lang/elixir">
     <img src="https://raw.githubusercontent.com/dunstontc/assets/master/images/logos/elixir_logo.png" alt="elixir" title="elixir" width="25%">
