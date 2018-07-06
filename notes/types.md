@@ -7,6 +7,7 @@
 - [Booleans](#booleans)
 - [Atoms](#atoms)
 - [Strings](#strings)
+- [Nil](#nil)
 - [Tuples](#tuples)
   - [Tuple Functions](#tuple-functions)
 - [Lists](#lists)
