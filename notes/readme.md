@@ -63,3 +63,5 @@
 | **function**       | Functions transform data by taking an input, performing some actions, and returning an output.                                                      |
 | **OTP**            | *OTP* (Open Telecom Platform) is a set of libraries that ships with Erlang. Erlang developers use OTP to build robust, fault-tolerant applications. |
 | **Tail recursion** | Tail recursion only happens when the *last operation* a function performs is recursion.                                                             |
+| **supervisor**     |                                                                                                                                                     |
+| **umbrella**       |                                                                                                                                                     |
