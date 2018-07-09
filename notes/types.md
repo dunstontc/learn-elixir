@@ -27,14 +27,14 @@
 
 ## Booleans
 - The booleans true and false are, in fact, atoms.
-- In Elixir, `:false` & `:nil` are the only falsey values.
+- In Elixir, `:false` & `:nil` are the only falsy values.
 
 ## Atoms
 - An atom is a constant whose name is its own value. Some other languages call these symbols.
 ```elixir
 true == :true
 false == :false
-:nil   # falsey
+:nil   # falsy
 ```
 
 ## Strings

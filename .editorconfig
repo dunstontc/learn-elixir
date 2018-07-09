@@ -16,8 +16,8 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{ex,exs]
-indent_size = 2
+[*.{ex,exs}]
+indent_size = 4
 indent_style = space
 
 [*.erl]
