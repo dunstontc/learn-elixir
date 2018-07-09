@@ -1,4 +1,0 @@
-# RsvpUmbrella
-
-**TODO: Add description**
-
