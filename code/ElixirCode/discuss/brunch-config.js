@@ -2,7 +2,7 @@ exports.config = {
   // See http://brunch.io/#documentation for docs.
   files: {
     javascripts: {
-      joinTo: "js/app.js"
+      joinTo: "js/app.js",
 
       // To use a separate vendor.js bundle, specify two files path
       // http://brunch.io/docs/config#-files-
@@ -25,9 +25,7 @@ exports.config = {
         after: ["web/static/css/app.css"] // concat app.css last
       }
     },
-    templates: {
-      joinTo: "js/app.js"
-    }
+    templates: { joinTo: "js/app.js" }
   },
 
   conventions: {
@@ -45,15 +43,13 @@ exports.config = {
       "test/static"
     ],
 
-    // Where to compile files to
-    public: "priv/static"
+    public: "priv/static"  // Where to compile files to
   },
 
   // Configure your plugins
   plugins: {
-    babel: {
-      // Do not use ES6 compiler in vendor code
-      ignore: [/web\/static\/vendor/]
+  babel: {
+      ignore: [/web\/static\/vendor/]  // Do not use ES6 compiler in vendor code
     }
   },
 
@@ -63,7 +59,5 @@ exports.config = {
     }
   },
 
-  npm: {
-    enabled: true
-  }
+  npm: { enabled: true },
 };
