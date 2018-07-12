@@ -9,12 +9,28 @@ To start your Phoenix app:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
-
 ## Learn more
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+  * [StephenGrider/ElixirCode](https://github.com/StephenGrider/ElixirCode)
+  * [Official website](http://www.phoenixframework.org/)
+  * [Docs](https://hexdocs.pm/phoenix)
+  * [Source](https://github.com/phoenixframework/phoenix)
+  * [elixir-ecto/ecto](https://github.com/elixir-ecto/ecto)
+
+
+## Notes
+
+- route -> controller -> template -> view
+- `%Plug.Conn`
+  - Represents both incoming & outgoing requests
+- Terms:
+  - Phoenix:
+    - Model
+    - View
+    - Controller
+  - Ecto:
+    - Ecto.Repo - Repositories are wrappers around a data store.
+    - Ecto.Schema - Schemas are used to map any data source into an Elixir struct.
+    - Ecto.Changeset - 
+    - Ecto.Query - Written in Elixir syntax, queries are used to retrieve information from a given repository.
+  - Plug

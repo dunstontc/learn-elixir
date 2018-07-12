@@ -1,1 +1,10 @@
 /* This file is for your main application css. */
+
+:root {
+  --primary: #EB532D;
+}
+
+.help-block {
+  color: red;
+  text-transform: capitalize;
+}
