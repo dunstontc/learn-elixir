@@ -16,6 +16,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
   * [Docs](https://hexdocs.pm/phoenix)
   * [Source](https://github.com/phoenixframework/phoenix)
   * [elixir-ecto/ecto](https://github.com/elixir-ecto/ecto)
+  * [github auth settings](https://github.com/settings/applications)
 
 
 ## Notes
@@ -26,6 +27,8 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 - Terms:
   - Phoenix:
     - Model
+      - Schema
+      - Changeset
     - View
     - Controller
   - Ecto:

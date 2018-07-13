@@ -14,22 +14,23 @@ defmodule Discuss.Router do
   end
 
   scope "/", Discuss do
-    pipe_through(:browser) # Use the default browser stack
+    pipe_through(:browser)
 
-    # resources("/topics", TopicController)
+    resources("/topics", TopicController)
 
-    get("/", TopicController, :index)
-    get("/topics/new", TopicController, :new)
-    post("/topics", TopicController, :create)
-    get("/topics/:id/edit", TopicController, :edit)
-    put("/topics/:id", TopicController, :update)
-    delete("/topics/:id", TopicController, :delete)
-
+    # get("/", TopicController, :index)
+    # get("/topics/new", TopicController, :new)
+    # post("/topics", TopicController, :create)
+    # get("/topics/:id/edit", TopicController, :edit)
+    # put("/topics/:id", TopicController, :update)
+    # delete("/topics/:id", TopicController, :delete)
   end
 
+  scope "/auth", Discuss do
+    pipe_through(:browser)
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Discuss do
-  #   pipe_through :api
-  # end
+    get("/:provider", AuthController, :request)
+    get("/:provider/callback", AuthController, :callback)
+  end
+
 end
