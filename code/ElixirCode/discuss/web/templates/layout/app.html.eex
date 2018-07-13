@@ -16,6 +16,13 @@
     <header class="header">
       <nav class="navbar navbar-dark bg-primary">
         <a class="navbar-brand" href="/">Discussions</a>
+        <div class="navbar-text">
+          <%= if @conn.assigns[:user] do %>
+            <%= link "Sign Out", to: auth_path(@conn, :signout) %>
+          <% else %>
+            <%= link "Sign in with GitHub", to: auth_path(@conn, :request, "github") %>
+          <% end %>
+        </div>
       </nav>
     </header>
     <br>

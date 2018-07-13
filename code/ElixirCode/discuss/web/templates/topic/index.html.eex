@@ -6,19 +6,19 @@
   <%= for topic <- @topics do %>
     <li class="list-group-item d-flex justify-content-between align-items-center">
       <%= topic.title %>
-      <span class="badge">
+      <div>
         <%= link "Edit",
             to: topic_path(@conn, :edit, topic),
             role: "button",
             class: "btn btn-outline-primary"
-            %>
+        %>
         <%= link "Delete",
             to: topic_path(@conn, :delete, topic),
             method: :delete,
             role: "button",
             class: "btn btn-outline-primary"
-            %>
-      </span>
+        %>
+      </div>
     </li>
   <% end %>
 </ul>
