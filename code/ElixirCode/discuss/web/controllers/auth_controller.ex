@@ -27,7 +27,7 @@ defmodule Discuss.AuthController do
     case insert_or_update_user(changeset) do
       {:ok, user} ->
         conn
-        # |> put_flash(:info, "Welcome Back")
+        |> put_flash(:info, "Welcome Back")
         |> put_session(:user_id, user.id)
         |> redirect(to: topic_path(conn, :index))
 

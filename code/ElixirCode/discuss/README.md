@@ -37,3 +37,5 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
     - Ecto.Changeset - 
     - Ecto.Query - Written in Elixir syntax, queries are used to retrieve information from a given repository.
   - Plug
+    - Module Plug
+    - Function Plug
