@@ -25,10 +25,10 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
   - Phoenix:
     - `%Plug.Conn`
       - Represents both incoming & outgoing requests
-    - *Model*
+    - **Model**
       - `migration -> model`
-    - *View*
-    - *Controller*
+    - **View**
+    - **Controller**
     - `route -> controller -> template -> view`
   - Ecto:
     - Ecto.Repo - Repositories are wrappers around a data store.
@@ -37,12 +37,13 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
     - Ecto.Query - Written in Elixir syntax, queries are used to retrieve information from a given repository.
     - Migrations
       - `timestamps()` - Adds *Created at* & *Last updated at* fields.
-  - Plug
+  - *Plug*
     - Module Plug
     - Function Plug
-  - Web Sockets
+  - *Web Sockets*
     - A protocol for exchanging dynamic and live information between a client & a server
-  - Longpoll
+  - *Longpoll*
     - Accomplishes the same thing as web sockets using http. (legacy)
-  - Pubsub
+  - *Pubsub*
+  - *Contexts*
 

@@ -1,16 +1,17 @@
 defmodule Discuss.CommentsChannel do
   use Discuss.Web, :channel
-
   alias Discuss.{Topic, Comment}
 
-  def join(name, _params, socket) do
-    "comments:" <> topic_id = name
-    topic = Repo.get(Topic, String.to_integer(topic_id))
+  def join("comments:" <> topic_id, _params, socket) do
+    topic_id = String.to_integer(topic_id)
+    topic = Topic
+      |> Repo.get(topic_id)
+      |> Repo.preload(comments: [:user])
 
-    {:ok, %{}, assign(socket, :topic, topic)}
+    {:ok, %{comments: topic.comments}, assign(socket, :topic, topic)}
   end
 
-  def handle_in(_name, %{"content" => content}, socket) do
+  def handle_in(name, %{"content" => content}, socket) do
     topic = socket.assigns.topic
 
     changeset = topic
@@ -23,7 +24,6 @@ defmodule Discuss.CommentsChannel do
       {:error, _reason} ->
         {:reply, {:error, %{errors: changeset}}, socket}
     end
-
   end
 
 end
