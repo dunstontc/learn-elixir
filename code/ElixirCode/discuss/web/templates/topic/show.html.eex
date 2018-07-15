@@ -1,1 +1,14 @@
 <h2><%= @topic.title %></h2>
+
+<div class="input-group">
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Comment</button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    window.createSocket(<%= @topic.id  %>)
+  })
+</script>

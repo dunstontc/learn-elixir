@@ -21,14 +21,14 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## Notes
 
-- `%Plug.Conn`
-  - Represents both incoming & outgoing requests
 - Terms:
   - Phoenix:
-    - Model
+    - `%Plug.Conn`
+      - Represents both incoming & outgoing requests
+    - *Model*
       - `migration -> model`
-    - View
-    - Controller
+    - *View*
+    - *Controller*
     - `route -> controller -> template -> view`
   - Ecto:
     - Ecto.Repo - Repositories are wrappers around a data store.
@@ -40,3 +40,9 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
   - Plug
     - Module Plug
     - Function Plug
+  - Web Sockets
+    - A protocol for exchanging dynamic and live information between a client & a server
+  - Longpoll
+    - Accomplishes the same thing as web sockets using http. (legacy)
+  - Pubsub
+
