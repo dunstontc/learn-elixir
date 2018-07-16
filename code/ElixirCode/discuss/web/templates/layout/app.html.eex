@@ -34,6 +34,11 @@
       </main>
     </div>
 
+    <script>
+      <%= if @conn.assigns.user do %>
+        window.userToken = "<%= Phoenix.Token.sign(Discuss.Endpoint, "key", @conn.assigns.user.id) %>"
+      <% end %>
+    </script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
